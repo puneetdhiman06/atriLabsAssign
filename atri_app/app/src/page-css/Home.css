@@ -130,7 +130,7 @@ text-align: center;
 font-family: IBM Plex Sans;
 }
 .p-Home.Div120 {
-margin-top: 25px;
+margin-top: 35px;
 }
 .p-Home.service {
 width: 100%;
@@ -702,7 +702,7 @@ font-size: 60px;
 color: transparent;
 width: 100%;
 float: none;
-background-image: url("/app-assets/backgroundText.png");
+background-image: ;
 background-clip: text;
 -webkit-background-clip: text;
 font-family: IBM Plex Sans;
@@ -726,7 +726,7 @@ padding-top: 8px;
 padding-left: 15px;
 padding-bottom: 8px;
 padding-right: 15px;
-font-size: ;
+font-size: 20px;
 border-radius: ;
 outline: none;
 font-weight: 700;
@@ -736,9 +736,10 @@ border-style: none;
 border-color: #000000;
 cursor: pointer;
 user-select: none;
-width: 150px;
+width: 160px;
 height: 60px;
 font-family: IBM Plex Sans;
+margin-left: 20px;
 }
 .p-Home.Button8 {
 color: #fff;
@@ -768,13 +769,15 @@ background-origin: border-box;
 background-clip: border-box;
 -webkit-background-clip: border-box;
 font-family: IBM Plex Sans;
+z-index: 5;
+position: relative;
 }
 .p-Home.TextBox182 {
 font-size: 25px;
 color: #848484;
-width: 100%;
-margin-top: 10px;
-margin-bottom: 25px;
+width: 90%;
+margin-top: 15px;
+margin-bottom: 35px;
 }
 .p-Home.TextBox183 {
 font-size: 82px;
@@ -782,6 +785,7 @@ text-align: left;
 width: 100%;
 font-family: IBM Plex Sans;
 font-weight: 600;
+line-height: 80px;
 }
 .p-Home.TextBox184 {
 font-size: 82px;
@@ -791,7 +795,7 @@ margin-top: 125px;
 background-origin: padding-box;
 background-clip: text;
 -webkit-background-clip: text;
-background-image: url("/app-assets/backgroundText.png");
+background-image: ;
 color: transparent;
 word-wrap: normal;
 line-height: ;
@@ -799,6 +803,24 @@ height: auto;
 background-attachment: scroll;
 font-family: IBM Plex Sans;
 font-weight: 600;
+}
+.p-Home.buttonDown {
+width: 90px;
+height: 22px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+position: absolute;
+top: 575px;
+right: 0;
+bottom: 0;
+left: 360px;
+background-image: url("/app-assets/backgroundText.png");
+background-origin: padding-box;
+z-index: 1;
+background-clip: border-box;
+-webkit-background-clip: border-box;
 }
 .p-Home.Image127 {
 width: 100%;
@@ -837,6 +859,8 @@ margin-top: 0px;
 margin-bottom: 120px;
 font-size: 55px;
 align-self: auto;
+font-family: IBM Plex Sans;
+font-weight: 700;
 }
 .p-Home.TextBox193 {
 ;
@@ -847,6 +871,8 @@ margin-top: 0px;
 margin-bottom: 0px;
 font-size: 55px;
 align-self: auto;
+font-family: IBM Plex Sans;
+font-weight: 700;
 }
 .p-Home.TextBox195 {
 width: 100%;
@@ -878,6 +904,8 @@ width: 100%;
 font-size: 27px;
 text-align: left;
 margin-bottom: 25px;
+font-family: IBM Plex Sans;
+font-weight: 700;
 }
 .p-Home.TextBox187 {
 font-size: 17px;
@@ -904,6 +932,8 @@ font-size: 25px;
 text-align: left;
 margin-bottom: 25px;
 background-position-x: ;
+font-family: IBM Plex Sans;
+font-weight: 700;
 }
 .p-Home.TextBox189 {
 text-align: left;
@@ -936,6 +966,8 @@ font-size: 27px;
 text-align: left;
 padding-left: ;
 margin-bottom: 25px;
+font-family: IBM Plex Sans;
+font-weight: 700;
 }
 .p-Home.Image134 {
 width: 59px;
@@ -988,7 +1020,7 @@ width: 50%;
 float: left;
 font-size: 27px;
 color: transparent;
-background-image: url("/app-assets/backgroundText.png");
+background-image: ;
 background-attachment: fixed;
 background-clip: text;
 -webkit-background-clip: text;

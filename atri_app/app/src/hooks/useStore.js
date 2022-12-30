@@ -793,6 +793,9 @@ const desktopModeProps = {
         ]
       }
     },
+    "buttonDown": {
+      "callbacks": {}
+    },
     "Image127": {
       "custom": {
         "alt": "No preview available",

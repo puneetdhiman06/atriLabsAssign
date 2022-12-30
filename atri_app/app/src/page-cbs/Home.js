@@ -2588,3 +2588,15 @@ export function useTextBox247Cb() {
 }), [])
 	return { onClick }
 }
+export function usebuttonDownCb() {
+	const onClick = useCallback(callbackFactory("buttonDown", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
